@@ -21,7 +21,9 @@ body {
 }
 
 .header {
-  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   background: var(--light-green);
   font-size: 1.2rem;
@@ -90,11 +92,6 @@ header h1 {
   margin: -5px;
 }
 
-
-.main-project-card-container p {
-background:var(--light-green);
-}
-
 .other-projects {
   display: flex;
   flex-direction: row;
@@ -123,8 +120,9 @@ background:var(--light-green);
 
 
 .footer {
-  position: absolute;
-  display:block;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
   width: 100%;
   background: var(--light-green);
   font-size: 1.2rem;
@@ -134,8 +132,8 @@ background:var(--light-green);
 
 }
 .footer-header h1 {
- display: block;
- float:left;
+ display:inline-block;
+ margin-left: 20px;
 
 }
 
@@ -157,4 +155,8 @@ background:var(--light-green);
   text-decoration: none;
   color: var(--davys-grey);
   margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
