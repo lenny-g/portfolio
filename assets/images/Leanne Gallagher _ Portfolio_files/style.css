@@ -30,7 +30,6 @@ body {
 
 header h1 {
   display: inline-block;
-  margin:20px;
 }
 
 .nav-container {
@@ -77,21 +76,20 @@ header h1 {
   text-align: center;
 }
 
-.main-project-card img {
+.main-project img {
   width: 100%;
   
 }
 
-.main-project-card-container {
-  padding: 2px 16px;
+.main-project h3 {
   display:block;
-  background: var(--forest-green-crayola);
+  background:var(--forest-green-crayola);
   font-size: 1.2rem;
-  margin: -5px;
+  margin:0;
 }
 
-
-.main-project-card-container p {
+.main-project p {
+display: block;
 background:var(--light-green);
 }
 
