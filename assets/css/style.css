@@ -30,7 +30,7 @@ body {
   background: var(--tea-green);
 }
 
-header img {
+.header img {
   display: block;
   width: 10rem;
   margin-top: 2rem;
@@ -39,7 +39,12 @@ header img {
   border-radius: 100%;
 }
 
-.nav-container {
+.header h1 {
+  margin: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.header .nav-container {
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
@@ -58,10 +63,11 @@ header img {
 }
 
 .about-me {
+  margin-top: 2rem;
   padding: 5rem;
   font-size: 1.2rem;
   text-align: left;
-  background: var(--tea-green-2);
+  background: var(--tea-green);
 }
 
 .portfolio {
