@@ -71,7 +71,6 @@ body {
 }
 
 .portfolio {
-  padding: 2rem;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -87,17 +86,17 @@ body {
 }
 
 .main-project-card-info {
-  display: inline-block;
   position: absolute;
   background: var(--tea-green);
   padding: 1rem;
-  margin: auto;
-  top: 90%;
-  left: 39%;
+  width: 30%;
+  top: 66.5%;
+  right: 0%;
   font-size: 1.5rem;
 }
 
 .other-projects {
+  padding: 1rem;
   margin-top: 6rem;
   display: flex;
   flex-direction: row;
@@ -143,11 +142,9 @@ body {
 .foot-nav-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   text-decoration: none;
   font-size: 1.4rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-items {
@@ -160,8 +157,8 @@ body {
 }
 
 @media screen and (max-width: 57rem) {
-  .nav-container {
-    display: flex;
+  .header .nav-container {
+    padding: 1rem;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -171,15 +168,13 @@ body {
   }
 
   .main-project-card-info {
-    margin: 2rem;
-    width: 100%;
-    float: left;
+    left: 0%;
+    width: 50%;
+    top: 50%;
   }
 
   .other-projects {
     margin-top: 10rem;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
   }
 
