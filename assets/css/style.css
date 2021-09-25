@@ -163,7 +163,17 @@ body {
   .nav-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .main-project-card {
+    width: 100%;
+  }
+
+  .main-project-card-info {
+    margin: 2rem;
+    width: 100%;
+    float: left;
   }
 
   .other-projects {
