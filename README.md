@@ -10,8 +10,8 @@ Click [here](https://lenny-g.github.io/portfolio/) for finished webpage.
 
 SCREENSHOTS
 The following image shows the web application's appearance and functionality:
-[preview](./assets/images/web-screenshot.png)
-[preview](./assets/images/mobile-screenshot.png)
+![ScreenShot](./assets/images/web-screenshot.png)
+![ScreenShot](./assets/images/mobile-screenshot.png)
 
 ## WORK ACHIEVED:
 
