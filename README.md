@@ -8,9 +8,11 @@ Objective was to create a portfolio for our various boot-camp projects.
 
 Click [here](https://lenny-g.github.io/portfolio/) for finished webpage.
 
-SCREENSHOTS
+## SCREENSHOTS
+
 The following image shows the web application's appearance and functionality on a laptop:
 ![ScreenShot](./assets/images/web-screenshot.png)
+
 The following image shows the web application's appearance and functionality on a mobile device:
 ![ScreenShot](./assets/images/mobile-screenshot.png)
 
