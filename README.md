@@ -2,7 +2,7 @@
 
 ## PROJECT DESCRIPTION
 
-Objective was to create a portfolio for our various bootcamp projects.
+Objective was to create a portfolio for our various boot-camp projects.
 
 ## LINK TO WORKING WEBPAGE
 
@@ -14,7 +14,7 @@ The following image shows the web application's appearance and functionality:
 
 ## WORK ACHIEVED:
 
-- Create a working portfolio for various bootcamp projects.
+- Create a working portfolio for various boot-camp projects.
 - Make it mobile accessible
 - Have working links
 - Cards for various projects
