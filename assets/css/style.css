@@ -65,6 +65,7 @@ body {
   margin-right: auto;
 }
 
+/* This contains the text and header in the about-me section */
 .about-me {
   margin-top: 20px;
   padding: 50px;
@@ -74,21 +75,25 @@ body {
   margin-bottom: 10px;
 }
 
+/* the begining of the portfolio section with header */
 .portfolio {
   font-size: 1.4rem;
   text-align: center;
 }
 
+/* styling for the first project aka main project */
 .main-project-card {
   display: block;
   position: relative;
   margin-bottom: 2rem;
 }
 
+/* Needed this image to span across the screen so had to target it */
 .main-project-card img {
   width: 100%;
 }
 
+/* I wanted the information that came with main project card to be on the screenshot itself */
 .main-project-card-info {
   display: inline-block;
   position: absolute;
@@ -100,11 +105,13 @@ body {
   font-size: 1.5rem;
 }
 
+/* To remove all decoration from the link and change the colour to go with the scheme  */
 .main-project-card-info a {
   text-decoration: none;
   color: var(--ash-gray);
 }
 
+/* The section that contained 6 other projects */
 .other-projects {
   margin: 30px;
   margin-top: 60px;
@@ -124,6 +131,7 @@ body {
   font-size: 1.2rem;
 }
 
+/* contains a placeholder for my future projects */
 .project-card img {
   margin-top: 20px;
   width: 100%;
@@ -150,6 +158,7 @@ body {
   margin: 10px;
 }
 
+/* contains the stylings for the external links in my portfolio */
 .foot-nav-container {
   margin-top: 20px;
   display: flex;
@@ -166,7 +175,9 @@ body {
   color: var(--middle-grey);
 }
 
+/* This is for mobile viewing */
 @media screen and (max-width: 576px) {
+  /* Had to change navigation from a row to column */
   .header .nav-container {
     padding: 10px;
     flex-direction: column;
@@ -177,22 +188,20 @@ body {
     width: 100%;
   }
 
+  /* needed to stop the card information covering other project cards */
   .main-project-card-info {
     left: 0%;
     width: 100%;
     top: 100%;
   }
 
-  .main-project-card-info a {
-    text-decoration: none;
-    color: var(--ash-gray);
-  }
-
+  /* to create a space between the main project and others */
   .other-projects {
     margin-top: 300px;
     flex-wrap: wrap;
   }
 
+  /* rather than 3 projects spanning the page, there was room for just one project on the screen */
   .project-card {
     width: 100%;
   }
@@ -201,6 +210,7 @@ body {
     position: center;
   }
 
+  /* Had to change the navigation bar from a row to column to make enough room for links */
   .foot-nav-container {
     display: flex;
     flex-direction: column;
