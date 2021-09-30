@@ -111,6 +111,12 @@ body {
   color: var(--ash-gray);
 }
 
+/* when mouse hovers over link it gets darker in colour and bold */
+.main-project-card-info a:hover {
+  color: var(--middle-grey);
+  font-weight: bold;
+}
+
 /* The section that contained 6 other projects */
 .other-projects {
   margin: 30px;
@@ -141,6 +147,12 @@ body {
 .project-card a {
   color: var(--ash-gray);
   text-decoration: none;
+}
+
+/* when mouse hovers over link it gets darker in colour and bold */
+.project-card a:hover {
+  color: var(--middle-grey);
+  font-weight: bold;
 }
 
 .footer {
