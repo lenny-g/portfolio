@@ -22,3 +22,6 @@ The following image shows the web application's appearance and functionality on 
 - Make it mobile accessible
 - Have working links
 - Cards for various projects
+
+## LICENSE
+MIT License 
