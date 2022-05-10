@@ -1,0 +1,232 @@
+/* The main colours I will be working with for my webpage  */
+:root {
+  --tea-green: #def2c8ff;
+  --tea-green-2: #c5dac1ff;
+  --opal: #bcd0c7ff;
+  --ash-gray: #a9b2acff;
+  --middle-grey: #898980ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--opal);
+  font-family: "Poppins";
+  line-height: 1.4;
+  color: var(--middle-grey);
+  font-size: 8px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  background: var(--tea-green);
+}
+/* This contains an image I am using in my header */
+.header img {
+  display: block;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+}
+
+.header h1 {
+  margin: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* navigation bar that contains internal links  */
+.header .nav-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--middle-grey);
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This contains the text and header in the about-me section */
+.about-me {
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 1.2rem;
+  text-align: left;
+  background: var(--tea-green);
+  margin-bottom: 10px;
+}
+
+/* the begining of the portfolio section with header */
+.portfolio {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* styling for the first project aka main project */
+.main-project-card {
+  display: block;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Needed this image to span across the screen so had to target it */
+.main-project-card img {
+  width: 100%;
+}
+
+/* I wanted the information that came with main project card to be on the screenshot itself */
+.main-project-card-info {
+  display: inline-block;
+  position: absolute;
+  background: var(--tea-green);
+  padding: 10px;
+  width: 45%;
+  top: 70.5%;
+  right: 10%;
+  font-size: 1.5rem;
+}
+
+/* To remove all decoration from the link and change the colour to go with the scheme  */
+.main-project-card-info a {
+  text-decoration: none;
+  color: var(--ash-gray);
+}
+
+/* when mouse hovers over link it gets darker in colour and bold */
+.main-project-card-info a:hover {
+  color: var(--middle-grey);
+  font-weight: bold;
+}
+
+/* The section that contained 6 other projects */
+.other-projects {
+  margin: 30px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  padding: 2px 16px;
+  display: block;
+  background: var(--tea-green);
+  font-size: 1.2rem;
+}
+
+/* contains a placeholder for my future projects */
+.project-card img {
+  margin-top: 20px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: var(--ash-gray);
+  text-decoration: none;
+}
+/* when mouse hovers over link it gets darker in colour and bold */
+.project-card a:hover {
+  color: var(--middle-grey);
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  background: var(--tea-green);
+}
+
+.footer h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 10px;
+}
+
+/* contains the stylings for the external links in my portfolio */
+.foot-nav-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: var(--middle-grey);
+}
+
+/* This is for mobile viewing */
+@media screen and (max-width: 576px) {
+  /* Had to change navigation from a row to column */
+  .header .nav-container {
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main-project-card {
+    width: 100%;
+  }
+
+  /* needed to stop the card information covering other project cards */
+  .main-project-card-info {
+    left: 0%;
+    width: 100%;
+    top: 100%;
+  }
+
+  /* to create a space between the main project and others */
+  .other-projects {
+    margin-top: 300px;
+    flex-wrap: wrap;
+  }
+
+  /* rather than 3 projects spanning the page, there was room for just one project on the screen */
+  .project-card {
+    width: 100%;
+  }
+
+  .footer h2 {
+    position: center;
+  }
+
+  /* Had to change the navigation bar from a row to column to make enough room for links */
+  .foot-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+}
