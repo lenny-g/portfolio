@@ -1,12 +1,16 @@
-# PORTFOLIO (COMPLETE)
+# PORTFOLIO [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## PROJECT DESCRIPTION
+## TABLE OF CONTENTS 
+- [Description](#DESCRIPTION)
+- [Screenshots](#SCREENSHOTS)
+- [Links](#LINKS)
+- [Installation](#INSTALLATION)
+- [Contact](#CONTACT)
+
+
+## DESCRIPTION
 
 Objective was to create a portfolio for our various boot-camp projects.
-
-## LINK TO WORKING WEBPAGE
-
-Click [here](https://lenny-g.github.io/portfolio/) for finished webpage.
 
 ## SCREENSHOTS
 
@@ -16,12 +20,12 @@ The following image shows the web application's appearance and functionality on 
 The following image shows the web application's appearance and functionality on a mobile device:
 ![ScreenShot](./assets/images/mobile-screenshot.png)
 
-## WORK ACHIEVED:
+## LINKS
 
-- Create a working portfolio for various boot-camp projects.
-- Make it mobile accessible
-- Have working links
-- Cards for various projects
+Click [here](https://lenny-g.github.io/portfolio/) for finished webpage.
 
-## LICENSE
-MIT License 
+
+## CONTACT
+ 
+If you would like to contact me regarding this project please reach out to me either on 
+[LinkedIn](https://www.linkedin.com/in/leanne-gallagher/) or [GitHub](https://github.com/lenny-g)
